@@ -4,6 +4,10 @@
     width:100%;
   }
 
+  .diary-item-action button{
+    width:100%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {

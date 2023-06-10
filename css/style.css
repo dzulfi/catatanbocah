@@ -93,6 +93,7 @@ nav{
 /* sidebar */
 .sidebar {
   width: 280px;
+  z-index: 999;
   background-color: var(--hijau-color);
   height: 100vh;
   position: fixed;
@@ -188,7 +189,6 @@ nav{
   height: 43px;
   display: flex;
   align-items: center;
-  background-color:var(--hijau-color);
   line-height: 43px;
   padding: 0 15px;
   margin-left: auto;
@@ -245,7 +245,6 @@ nav{
   }
   .keuangan-icon span:nth-child(2){
     font-size: 25px;
-    background-color: ;
   }
 /*akhir style catatan keuangan */
 
@@ -253,5 +252,19 @@ nav{
 /* style Diary Bocah */
 .round-4{
   border-radius: 4px;
+}
+.diary-item-action{
+  display: flex;
+  margin: auto;
+  justify-content: end;
+}
+.diary-item-action button{
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* akhir style Diary Bocah */

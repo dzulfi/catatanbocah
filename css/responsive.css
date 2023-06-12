@@ -8,6 +8,10 @@
     width:100%;
   }
 
+  .tugas-item-action button{
+    width:100%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {

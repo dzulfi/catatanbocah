@@ -268,3 +268,23 @@ nav{
   justify-content: center;
 }
 /* akhir style Diary Bocah */
+
+/* style Tugasku */
+.round-4{
+  border-radius: 4px;
+}
+.tugas-item-action{
+  display: flex;
+  margin: auto;
+  justify-content: end;
+}
+.tugas-item-action button{
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* akhir style Tugasku */

@@ -223,8 +223,8 @@ nav{
   }
   #radio-button-3:checked+label {
       background-color: white;
-      border: 1px solid rgb(210, 8, 8);
-      color:rgb(210, 8, 8);
+      border: 1px solid var(--hijau-color);
+      color:var(--hijau-color);
   }
   #radio-button-4:checked+label {
       background-color: white;
@@ -302,3 +302,22 @@ nav{
   justify-content: center;
 }
 /* akhir style Tugasku */
+
+
+/* Login  & register */
+
+.box-area {
+    width: 950px;
+    height: auto;
+}
+
+.right-box {
+    padding: 20px 30px 20px 30px;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+}
+
+/* Akhir Login  & register */

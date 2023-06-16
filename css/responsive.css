@@ -30,6 +30,19 @@
   .sidebar {
     position: fixed;
   }
+
+  .box-area {
+      margin: 0 10px;
+  }
+
+  .left-box {
+      height: 0px;
+      overflow: hidden;
+  }
+
+  .right-box {
+      padding: 20px;
+  }
 }
 
 /* Style untuk layar dengan lebar antara 768px dan 991px (ukuran tablet) */

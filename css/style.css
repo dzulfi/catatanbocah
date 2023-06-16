@@ -302,3 +302,22 @@ nav{
   justify-content: center;
 }
 /* akhir style Tugasku */
+
+
+/* Login  & register */
+
+.box-area {
+    width: 950px;
+    height: auto;
+}
+
+.right-box {
+    padding: 20px 30px 20px 30px;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+}
+
+/* Akhir Login  & register */

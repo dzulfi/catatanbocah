@@ -223,8 +223,8 @@ nav{
   }
   #radio-button-3:checked+label {
       background-color: white;
-      border: 1px solid rgb(210, 8, 8);
-      color:rgb(210, 8, 8);
+      border: 1px solid var(--hijau-color);
+      color:var(--hijau-color);
   }
   #radio-button-4:checked+label {
       background-color: white;

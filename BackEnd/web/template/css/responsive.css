@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 575px) {
+  .btn-transaksi{
+    width:100%;
+  }
+
+  .diary-item-action button{
+    width:100%;
+  }
+
+  .tugas-item-action button{
+    width:100%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .welcome h1 {
+    /* background-color: red; */
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .sidebar-profile {
+    display: none;
+  }
+  .sidebar-none {
+    display: none;
+  }
+  .sidebar {
+    position: fixed;
+  }
+}
+
+/* Style untuk layar dengan lebar antara 768px dan 991px (ukuran tablet) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Tambahkan gaya khusus untuk tablet di sini */
+}
+
+/* Style untuk layar dengan lebar minimum 992px (ukuran desktop) */
+@media screen and (min-width: 992px) {
+  /* Tambahkan gaya khusus untuk desktop di sini */
+}
+
+/* Style untuk layar dengan lebar minimum 1200px (ukuran desktop besar) */
+@media screen and (min-width: 1200px) {
+  .welcome h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .welcome .welcome-deskripsi {
+    font-size: 18px;
+  }
+}

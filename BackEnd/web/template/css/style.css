@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #eeeeee;
+  --hijau-color: #27AE60;
+  --hijautua-color: #178B48;
+  --putih-color: #fff;
+  --putih-color-o70: #ffffffed;
+  --grey-color: #4f4f4f;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--grey-color);
+}
+
+
+nav{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: var(--putih-color);
+  top: 0;
+  margin-left:280px;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  padding-left: 30px;
+  transition: .3s;
+}
+.nav-off{
+  margin-left: 0;
+}
+.menu-humberger{
+  display: block;
+  height: 40px;
+  width: 40px;
+  
+}
+.menu-humberger span{
+  font-size: 40px;
+  color: black;
+}
+
+
+.content{
+  margin-left: 280px;
+  transition: .3s;
+}
+.content-off{
+  margin-left: 0;
+}
+.welcome {
+  min-height: 100vh;
+  padding: 100px 10px;
+}
+.welcome h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.welcome h1 span {
+  color: var(--hijau-color);
+}
+.welcome .welcome-deskripsi {
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+  max-width: 500px;
+}
+
+.welcome .fitur-item {
+  border-radius: 4px;
+  min-width: 32%;
+  padding: 16px;
+  background-color: var(--putih-color);
+  /* width: 100%; */
+  /* margin: 5px; */
+}
+
+.fitur-item img {
+  height: 45px;
+}
+.fitur-item h5 {
+  line-height: 45px;
+  margin-left: 10px;
+}
+
+/* sidebar */
+.sidebar {
+  width: 280px;
+  z-index: 999;
+  background-color: var(--hijau-color);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  transition: .3s;
+  left: 0;
+  padding: 24px;
+  color: var(--putih-color);
+}
+
+.sidebar-logo {
+  width: 100%;
+  fill: red !important;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+.sidebar .menu-item {
+  color: var(--putih-color-o70);
+  padding: 12px;
+  display: flex;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.side-off{
+  transform: translate(-300px,0);
+}
+.menu-item span {
+  margin-right: 10px;
+  transition: .1s;
+}
+.menu-item:hover,.menu-active {
+  background-color: var(--putih-color);
+  color: var(--hijau-color) !important; 
+}
+
+.menu-item {
+  align-items: center;
+  display: flex;
+}
+.logout {
+  background-color: var(--hijautua-color);
+  color: var(--putih-color);
+  padding: 12px;
+  display: flex;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.logout:hover {
+  background-color: #0c6c34;
+}
+
+.sidebar-profile {
+  margin-top: 20px;
+}
+.sidebar-profile span {
+  color: var(--putih-color);
+  opacity: 0.5;
+}
+.sidebar-profile span:nth-child(1) {
+  font-weight: 500;
+  opacity: 1;
+}
+
+.sidebar-profile img {
+  border-radius: 100%;
+  width: 100%;
+}
+/* akhir sidebar */
+
+
+
+
+/* style catatan keuangan */
+.content-keuangan{
+ border-radius:4px; 
+}
+
+.content-keuangan table{
+  overflow-x: scroll;
+}
+
+.btn-transaksi{
+  padding: 0;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  line-height: 43px;
+  padding: 0 15px;
+  margin-left: auto;
+}
+
+ /* Menghilangkan tampilan default radio button */
+  input[type="radio"] {
+      display: none;
+  }
+
+  /* Membuat tampilan button */
+  .label-radio {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #e9e9e9;
+      color: rgb(94, 94, 94);
+      cursor: pointer;
+      border-radius: 5px;
+  }
+
+  #radio-button-1:checked+label {
+      background-color: white;
+      border: 1px solid var(--hijau-color);
+      color: var(--hijau-color);
+    }
+    
+    #radio-button-2:checked+label {
+      background-color: white;
+      border: 1px solid rgb(210, 8, 8);
+      color:rgb(210, 8, 8);
+  }
+
+  table tr td{
+    padding: 20px !important;
+    align-items: center;
+    background-color: red;
+  }
+
+  .keuangan-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .keuangan-icon span:nth-child(1){
+    display: block;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: var(--hijau-color);
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+  }
+  .keuangan-icon span:nth-child(2){
+    font-size: 25px;
+  }
+/*akhir style catatan keuangan */
+
+
+/* style Diary Bocah */
+.round-4{
+  border-radius: 4px;
+}
+.diary-item-action{
+  display: flex;
+  margin: auto;
+  justify-content: end;
+}
+.diary-item-action button{
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* akhir style Diary Bocah */
+
+/* style Tugasku */
+.round-4{
+  border-radius: 4px;
+}
+.tugas-item-action{
+  display: flex;
+  margin: auto;
+  justify-content: end;
+}
+.tugas-item-action button{
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* akhir style Tugasku */
